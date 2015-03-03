@@ -31,7 +31,7 @@ class TestHTMLParser(HTMLParser):
         name    = urlsp[-1]
         return name
 
-url = 'http://www.dmm.co.jp/mono/dvd/-/detail/=/cid=ipz549/'
+url = ''
 
 parser = TestHTMLParser('img')
 r = urllib2.urlopen(url)
