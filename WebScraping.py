@@ -2,7 +2,6 @@
 # -*- coding:utf-8 -*-
 
 import urllib2
-import sys
 import os
 import errno
 from HTMLParser import HTMLParser, HTMLParseError
